@@ -1,0 +1,34 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# Build Nuxt / Nitro
+.nuxt/
+.output/
+.nitro/
+.cache/
+dist/
+
+# Datos locales y artefactos de QA de browser
+.data/
+.gstack/
+
+# Entorno
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Editor y sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
